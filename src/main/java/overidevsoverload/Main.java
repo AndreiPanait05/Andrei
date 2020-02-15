@@ -7,5 +7,8 @@ public class Main {
 
         B b = new B();
         b.f();
+
+        b.f(5);
+        b.f(7, "aa");
     }
 }
